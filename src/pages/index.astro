@@ -1,5 +1,7 @@
 ---
+import { getCollection } from "astro:content";
 
+const sections = await getCollection("sections");
 ---
 
 <html lang="en">
@@ -13,6 +15,18 @@
 	<body>
 		<h1>Photography exhibition</h1>
 
-		<p>This website contains the photos and texts produced by participants during a summer camp in 2025.</p>
+		<p>
+			This website contains the photos and texts produced by participants
+			during a summer camp in 2025.
+		</p>
+
+		<h1>Sections</h1>
+
+		{
+			sections.map((section) => (
+				<h2>{section.data.title}</h2>
+				<p>{section.body}</p>
+			))
+		}
 	</body>
 </html>
