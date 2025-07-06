@@ -7,6 +7,5 @@ image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
 ---
-# An old building
 
 This is an important old building from the war. Let me tell you more.
