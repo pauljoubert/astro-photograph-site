@@ -6,6 +6,7 @@ const sections = defineCollection({
 
     schema: z.object({
         title: z.string(),
+        gallery: z.array(z.string()),
     }),
 });
 
