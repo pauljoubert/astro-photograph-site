@@ -4,9 +4,10 @@ content:
     path: src/content/sections
     type: collection
     view:
-      fields: [ title ]
+      fields: [ title, gallery ]
     fields:
       - { name: title, label: Title, type: string, required: true }
+      - { name: gallery, label: Image Gallery, type: image, options: { multiple: { max: 6 } } }
       - { name: body, label: Body, type: rich-text }
 media:
   - name: images
