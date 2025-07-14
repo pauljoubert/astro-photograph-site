@@ -1,0 +1,16 @@
+content:
+  - name: sections
+    label: Sections
+    path: src/content/sections
+    type: collection
+    view:
+      fields: [ title ]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
+media:
+  - name: images
+    label: Images
+    input: images
+    output: /images
+    extensions: [ png, jpg, jpeg ]
