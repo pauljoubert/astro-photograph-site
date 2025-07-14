@@ -1,6 +1,7 @@
 ---
-title: An old building
+title: Archeological site
 gallery:
   - /images/colosseum-rome.jpg
+  - /images/colosseum-rome-2.jpg
 ---
-This is an important old building from the war. Let me tell you more.
+It is believed than an important battle took place here. Look at how the cannon destroyed part of the wall.
