@@ -12,6 +12,6 @@ content:
 media:
   - name: images
     label: Images
-    input: images
+    input: public/images
     output: /public/images
     extensions: [ png, jpg, jpeg ]
