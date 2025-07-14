@@ -1,7 +1,6 @@
 ---
-title: 'A very old object'
+title: An old electronic calculator
 gallery:
-  - /images/colosseum-rome.jpg
+  - /images/old-computer.jpeg
 ---
-
-This old object was found in an old building. It tells something about the history.
+We discovered this ancient artifact in an abandoned building in the forest. Historians are speculating about its possible uses.
