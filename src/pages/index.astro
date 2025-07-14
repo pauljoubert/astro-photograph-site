@@ -25,7 +25,7 @@ const sections = await getCollection("sections");
 		{
 			sections.map((section) => (
 				<h2>{section.data.title}</h2>
-				<p>{section.data.gallery.map(picture => <img src={picture} alt="A bird sitting on a nest of eggs." />)}</p>
+				<p>{section.data.gallery.map(picture => <img src={picture} alt="The photo should be here" />)}</p>
 				<p>{section.body}</p>
 			))
 		}
