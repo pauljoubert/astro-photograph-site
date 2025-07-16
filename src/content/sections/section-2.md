@@ -1,5 +1,5 @@
 ---
-title: An old electronic calculator
+title: An old electronic calculator, very cute
 gallery:
   - /images/old-computer.jpeg
 ---
